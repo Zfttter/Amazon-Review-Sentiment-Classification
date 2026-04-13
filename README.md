@@ -43,6 +43,5 @@ amazon-sentiment/
 │   ├── data_loader.py    # HuggingFace loading, cleaning, sampling, label mapping
 │   ├── preprocessing.py  # clean_text(), TF-IDF Pipeline builder
 │   ├── models.py         # Model definitions (binary + ternary, with/without class weights)
-│   └── evaluation.py     # Confusion matrices, ROC curves, model comparison,
-│                         # error analysis, class-weight comparison plot
+│── |── evaluation.py     # Confusion matrices, ROC curves, model comparison, error analysis, class-weight comparison plot
 ```
